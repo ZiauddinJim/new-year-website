@@ -78,10 +78,7 @@ header {
   align-items: center;
   width: 802.9px;
   display: block;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
+  margin: 0 auto 120px;
 }
 
 /* Section-2-midnight */
@@ -127,7 +124,8 @@ header {
 .section-3-join {
   max-width: 1320px;
   background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1));
-  margin: 0 auto;
+  background-size: cover;
+  margin: 0 auto 120px;
   height: 482px;
   border-radius: 16px;
 }
@@ -158,4 +156,51 @@ header {
 }
 .s-3-button {
   text-align: center;
+}
+
+/* Section-4 Coming Soon */
+.section-4-cs {
+  max-width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+/* Coming Soon */
+.cs-title {
+  color: var(--red);
+  font-size: 24px;
+  font-weight: 500;
+}
+.cs-subtitle {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 900;
+}
+.cs-description {
+  color: var(--light-dark);
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
+}
+/* Picture */
+.s-4-pic {
+  border: 15px solid var(--red);
+  border-radius: 50%;
+  padding: 49.8px;
+}
+
+/* s4-2024 */
+.s-4-2024 {
+  color: var(--red);
+  font-size: 48px;
+  font-weight: 700;
+}
+.s4-2024-description {
+  width: 276px;
+  color: var(--light-dark);
+  font-size: 20px;
+}
+.s4-2024-pic {
+  width: 140px;
 }
