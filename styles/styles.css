@@ -26,7 +26,7 @@ header {
   max-width: 1320px;
   margin: 0 auto;
   background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
-    url(/images/Banner\ Image.png);
+    url(/images/Banner-Image.png);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -45,6 +45,12 @@ header {
   color: var(--white);
   font-weight: 900;
   width: 632px;
+  margin: 0 auto;
+}
+
+/* Main */
+main {
+  max-width: 1320px;
   margin: 0 auto;
 }
 
@@ -83,7 +89,6 @@ header {
 
 /* Section-2-midnight */
 .section-2-midnight {
-  max-width: 1320px;
   height: 600px;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -122,9 +127,8 @@ header {
 
 /* section-3 Join Now */
 .section-3-join {
-  max-width: 1320px;
-  background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.1));
-  background-size: cover;
+  background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+
   margin: 0 auto 120px;
   height: 482px;
   border-radius: 16px;
@@ -160,10 +164,9 @@ header {
 
 /* Section-4 Coming Soon */
 .section-4-cs {
-  max-width: 1320px;
   height: 463px;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   justify-content: space-between;
 }
 /* Coming Soon */
@@ -203,4 +206,48 @@ header {
 }
 .s4-2024-pic {
   width: 140px;
+}
+
+/* Section-5 Holiday */
+.s5-holiday {
+  margin: 0 auto;
+  text-align: center;
+}
+.holiday-content {
+  text-align: center;
+}
+.s5-function {
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.s5-title {
+  color: var(--black);
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+.s5-t-color {
+  color: var(--red);
+}
+.s5-description {
+  color: var(--light-dark);
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+/* Section-5 Picture */
+.s5-pic {
+  height: 662.07px;
+  margin: 0 auto;
+  background: url(/images/Group-75.png), url(/images/Rectangle-2.png);
+  background-size: ;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
