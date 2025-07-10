@@ -254,8 +254,8 @@ main {
 }
 .s5-img {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 80px;
+  left: 60px;
 }
 .s5-img img {
   width: 500px;
