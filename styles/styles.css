@@ -245,9 +245,113 @@ main {
 /* Section-5 Picture */
 .s5-pic {
   height: 662.07px;
-  margin: 0 auto;
-  background: url(/images/Group-75.png), url(/images/Rectangle-2.png);
-  background-size: ;
+  margin: 0 auto 120px;
+  background: url(/images/Rectangle-2.png);
+  position: relative;
   background-repeat: no-repeat;
   background-position: bottom;
+  /* border: 1px solid black; */
+}
+.s5-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.s5-img img {
+  width: 500px;
+}
+.s5-img2 {
+  position: absolute;
+  right: 40px;
+  top: 77px;
+}
+
+/* Section-6-Portfolio */
+.s6p-title {
+  color: var(--red);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.s6p-sub-title {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.s6p-description {
+  margin-top: 0;
+  margin-bottom: 48px;
+  color: var(--light-dark);
+  font-size: 20px;
+  width: 896px;
+}
+.s6p-pic {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+.s6p-img {
+  width: 424px;
+  height: 450px;
+}
+
+/* Section-7-Subscription */
+.s-7-s {
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  text-align: center;
+}
+.s7s-img {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+.s7s-title {
+  color: var(--black);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.s7s-description {
+  margin: 22px auto 48px;
+  width: 896px;
+  color: var(--light-dark);
+  font-size: 20px;
+}
+
+/* Form Style */
+.s7s-form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 80px;
+  gap: 0;
+}
+
+.s7s-form input[type='email'] {
+  width: 438px;
+  font-size: 18px;
+  padding: 25px 30px;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: var(--white);
+  outline: none;
+}
+
+.s7s-form input[type='email']::placeholder {
+  color: var(--full-light-dark);
+}
+.s7s-form button {
+  width: 210px;
+  border: none;
+  background-color: var(--red);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
 }
