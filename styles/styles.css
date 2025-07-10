@@ -26,7 +26,7 @@ header {
   max-width: 1320px;
   margin: 0 auto;
   background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
-    url(/images/Banner-Image.png);
+    url(../images/Banner-Image.png);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -93,7 +93,7 @@ main {
   margin: 0 auto;
   margin-bottom: 120px;
   background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),
-    url(/images/Vectorrr.png);
+    url(../images/Vectorrr.png);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -246,7 +246,7 @@ main {
 .s5-pic {
   height: 662.07px;
   margin: 0 auto 120px;
-  background: url(/images/Rectangle-2.png);
+  background: url(../images/Rectangle-2.png);
   position: relative;
   background-repeat: no-repeat;
   background-position: bottom;
